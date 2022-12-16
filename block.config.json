@@ -1,0 +1,13 @@
+{
+  "name": "cards_shuffle",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/vinilunni/cards_shuffle",
+    "ssh": "git@github.com:vinilunni/cards_shuffle.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
